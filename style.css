@@ -157,11 +157,20 @@ i.fa-times {
 .hero {
     width: 100%;
     height: 100vh;
-    background: url('images/ed2e735d-cf18-4455-8c0e-ef9c64058b2f.png') center no-repeat;
-    background-size: cover;
+    /* background: url('images/6c910cab1c2afff4887c66d979856f5d.jpg') center no-repeat;
+    background-size: contain; */
     display: flex;
     align-items: center;
     text-align: center;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sub-headline {
