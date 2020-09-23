@@ -173,11 +173,6 @@ i.fa-times {
     left: 0;
 } */
 
-.arrowScrollDown svg {
-    fill: hsl(0, 91%, 47%);
-    animation: arrowAnimation 1.5s infinite ease-out;
-}
-
 
 @keyframes arrowAnimation {
     0% {
